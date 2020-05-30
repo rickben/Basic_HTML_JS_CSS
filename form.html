@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<title>Form</title>
+	<style></style>
+</head>
+<body>
+	<h1>Form</h1>
+	<form action="form-submit.php" method="POST">
+	<fieldset>
+		<legend>Information</legend>
+		Username:
+		<input type="text" placeholder="Enter your name" name="username" required autocomplete />
+		<br/>
+		Password:
+		<input type="password" placeholder="Choose password" name="password" required maxlength="8" autocomplete />
+		<br/>
+		<input type="date" value="01/01/2019" required />
+		<input type="submit" value="login" name="submit" />
+	</fieldset>
+</body>
